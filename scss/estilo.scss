@@ -1,0 +1,27 @@
+@import "variaveis.scss";
+
+@mixin divs($background, $color) {
+    background: $background;
+    color: $color;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+body {
+    background-color: $cinza;
+}
+
+.background-div {
+    @include divs($cinza-escuro, $branco);
+}
+
+.botao {
+    border: 0px;
+    background: none;
+    background-color: $verde;
+    border-radius: 10px;
+
+    &:hover {
+        background-color: darken($verde, 10%);
+    }
+}

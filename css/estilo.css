@@ -1,0 +1,22 @@
+body {
+  background-color: lightgrey;
+}
+
+.background-div {
+  background: grey;
+  color: white;
+  border-radius: 50px;
+  margin: 10px;
+}
+
+.botao {
+  border: 0px;
+  background: none;
+  background-color: lightgreen;
+  border-radius: 10px;
+}
+.botao:hover {
+  background-color: #64e764;
+}
+
+/*# sourceMappingURL=estilo.css.map */
