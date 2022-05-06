@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
 body {
   background-color: lightgrey;
 }
@@ -7,6 +8,25 @@ body {
   color: white;
   border-radius: 50px;
   margin: 10px;
+  box-shadow: 10px 5px 5px black;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  bottom: 50px;
+}
+
+.text-div {
+  background: lightgrey;
+  color: black;
+  border-radius: 50px;
+  margin: 10px;
+  box-shadow: 10px 5px 5px black;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  bottom: 50px;
+  width: 800px;
+  height: 400px;
 }
 
 .botao {
@@ -14,9 +34,101 @@ body {
   background: none;
   background-color: lightgreen;
   border-radius: 10px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 60px;
 }
 .botao:hover {
   background-color: #64e764;
+}
+
+.input-estyle {
+  background-color: lightblue;
+  color: black;
+  border-radius: 50px;
+  border: none;
+  margin: 10px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.label-style {
+  font-size: small;
+  border: 0px;
+  background: none;
+  border-radius: 10px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 60px;
+}
+
+#container {
+  width: 100%;
+  display: inline-block;
+}
+
+nav {
+  overflow: hidden;
+  background-color: grey;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+nav ul {
+  text-align: center;
+  list-style-type: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+}
+nav ul li {
+  display: inline;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 17px;
+}
+nav ul li a {
+  color: #f2f2f2;
+  text-decoration: none;
+  padding: 14px;
+}
+nav ul li a:hover {
+  background-color: #111;
+}
+
+.content {
+  text-align: center;
+}
+
+.column {
+  display: inline-block;
+  border: 1px solid transparent;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+  margin: 300px;
+  position: relative;
+  right: 450px;
+  top: 200px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  border: 1px solid black;
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  color: white;
+  text-align: center;
 }
 
 /*# sourceMappingURL=estilo.css.map */
